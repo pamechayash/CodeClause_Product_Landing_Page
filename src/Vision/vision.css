@@ -1,0 +1,20 @@
+.imgdiv{
+   width:80vw;
+   height:80vh;
+  margin: auto;
+
+   
+}
+.cont{
+  padding: 20px;
+ text-align: center;
+ font-weight:500 ; 
+ color: rgb(8, 8, 98);
+ font-size: 1.2rem;
+
+}
+.vsn{
+    background: linear-gradient(to right bottom ,rgb(153, 198, 153),white);
+    margin: 0;
+    padding: 0;
+}

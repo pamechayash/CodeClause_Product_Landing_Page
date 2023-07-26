@@ -1,0 +1,66 @@
+.fr{
+    height: 100vh;
+    width:100vw;
+    background: url("https://media.blueapron.com/assets/registration/homepage/desktop-splash-v2.webp?height=800&quality=90&format=pjpg");
+    background-size: cover;
+    display: flex;
+   justify-content: start;
+   align-items: center;
+}
+.head{
+    height: fit-content;
+    width: fit-content;
+    font-size: 3rem;
+    font-family: "Chronicle Deck", "Times", serif;
+    font-weight: bolder;
+    color: rgb(8, 8, 98);
+ 
+   
+   text-align: start;
+   
+}
+.c{
+   
+display: flex;
+flex-direction: column;
+margin-bottom: 40vh;
+margin-left: 10vw;
+
+}
+.menubtn{
+   margin: 20px;
+   background-color: rgb(8, 8, 98);
+   width: 150px;
+   padding: 10px;
+   text-align: center;
+   color: white;
+   font-weight: bold;
+   font-family:  "Chronicle Deck", "Times", serif;;
+   border-radius: 40px;
+   transition: 0.4s;
+  cursor: pointer;
+}
+.menubtn:hover{
+    background-color: white;
+    color:rgb(8, 8, 98) ;
+}
+.bton{
+
+    background-color:white ;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(8, 8, 98);
+    font-weight: bold;
+    font-family:  "Chronicle Deck", "Times", serif;;
+    border-radius: 40px;
+    transition: 0.4s;
+   cursor: pointer;
+   position: fixed;
+   top:10px;
+   left: 10px;
+}
+.bton:hover{
+    background-color:rgb(8, 8, 98) ;
+    color:white ;
+}

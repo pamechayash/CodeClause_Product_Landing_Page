@@ -1,0 +1,44 @@
+.bt{
+    width:400px;
+   background-color: rgb(8, 8, 98);
+   margin-top: 10px;
+   color: white;
+   font-weight: bold;
+   height: 0px;
+   padding: 0;
+   overflow: hidden;
+   transition: 0.5s;
+   cursor: pointer;
+
+}
+
+#card2:hover > .bt{
+    padding-top:10px;
+    padding-bottom:10px;
+    height: fit-content;
+     
+}
+
+#card2{
+    height: fit-content;
+}
+@media (max-width:844px) {
+  #card2{
+      width:300px !important;
+      height: 400px !important;
+  }
+  .bt{
+    width:300px !important;  
+  }
+    
+}
+@media (max-width:646px) {
+    #card2{
+        width:200px !important;
+        height: 350px !important;
+    }
+    .bt{
+      width:200px !important;  
+    }
+      
+  }

@@ -1,0 +1,21 @@
+.card2space{
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.strip{
+    background-color: rgb(8, 8, 98);
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    margin-bottom: 20px;
+}

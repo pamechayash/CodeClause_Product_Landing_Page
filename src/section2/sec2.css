@@ -1,0 +1,13 @@
+.card1space{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    margin: auto;
+}
+@media (max-width:931px){
+    .card1space{
+        width: 100vw;
+    }
+}

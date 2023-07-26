@@ -1,25 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Carousel from './header';
+import {useState} from "react"
+import Header from './header';
+import Sec1 from './section1/sec1';
+import Sec2 from './section2/sec2';
+function MainPage() {
 
-function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Header/>
+   <Sec1/>
+   <Sec2/>
+       </div>
   );
 }
 
-export default App;
+export default MainPage;
